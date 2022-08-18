@@ -10,10 +10,10 @@ React, React-Router, Redux-toolkit,Tailwind/Scss
 
 ## Как запустить
 
-Запуск в режиме разработчика:
-
 Перед первым запуском запистить
 ### `npm install`
+
+Запуск в режиме разработчика:
 
 ### `npm start`
 
