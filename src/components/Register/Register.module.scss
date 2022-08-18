@@ -1,0 +1,188 @@
+.container {
+  @apply w-80 mx-auto;
+  h1 {
+    @apply text-center pt-16 pb-7;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+  }
+  h2 {
+    @apply mb-4 ml-5 pt-9;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  h3 {
+    @apply mb-1.5 ml-5;
+    @media (max-width: 360px) {
+      @apply w-full ml-3;
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    b {
+      color: #F90B27;
+    }
+  }
+  p {
+    @apply pt-3 pb-5 w-72 mx-auto text-justify;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #959494;
+    @media (max-width: 360px) {
+      @apply w-full;
+    }
+  }
+  .input {
+    @apply border border-slate-400 h-14 rounded-4xl mb-4;
+    input {
+      @apply outline-none decoration-0 border-none bg-transparent h-full ml-4;
+      &::placeholder {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #C4C4C485;
+      }
+    }
+  }
+}
+.pass{
+  @apply ml-5 w-3/4;
+}
+.calendar {
+  @apply w-full h-full;
+  > div{
+    border: none;
+    > span {
+      color: #C4C4C485;
+    }
+  }
+}
+
+.sub {
+  @apply border-none text-center;
+  background: #50DE97;
+  input {
+    @apply pb-20 pt-3.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+}
+
+.main {
+  @apply flex;
+  img {
+    @apply w-3/6 h-3/6;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  .form{
+    @apply my-auto w-96 md:max-w-lg;
+    @media (max-width: 768px) {
+      @apply mx-auto pt-6;
+    }
+    h1 {
+      @apply text-center mb-8;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 20px;
+    }
+    h2 {
+      @apply text-center mb-5;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+    }
+    .input {
+      @apply border border-slate-400 h-14 rounded-4xl mb-4;
+      input {
+        @apply outline-none decoration-0 border-none bg-transparent h-full;
+        &::placeholder {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: #C4C4C485;
+        }
+      }
+
+    }
+
+    svg, p {
+      @apply h-full pl-4;
+    }
+    .dropdown123 {
+      background: red;
+    }
+
+    p {
+      @apply mt-3.5 pr-1;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+    }
+    .telephone{
+      @apply flex mx-auto;
+    }
+    .sub {
+      @apply border-none text-center;
+      background: #8C50A6;
+      &:hover {
+        cursor: pointer;
+      }
+      .submitText {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #FFFFFF;
+        padding-top: 14px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+    .pass{
+      @apply ml-5;
+    }
+    .login {
+      @apply flex ml-16;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      .link {
+        @apply decoration-0 outline-none;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 0 !important;
+        color: #9931CC;
+      }
+    }
+  }
+}
+.dropdown {
+  @apply ml-5;
+}
+.drop {
+  border: none !important;
+  background: transparent !important;
+  &:hover {
+
+  }
+}

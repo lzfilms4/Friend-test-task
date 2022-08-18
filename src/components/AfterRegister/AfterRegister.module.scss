@@ -1,0 +1,59 @@
+.container {
+  @apply w-80 mx-auto;
+  h1 {
+    @apply text-center pt-28 pb-7;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 20px;
+  }
+  h2 {
+    @apply pb-6 ml-5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h3 {
+    @apply mb-1.5 ml-5;
+    @media (max-width: 360px) {
+      @apply w-full ml-3;
+    }
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #959494;
+  }
+}
+.input {
+  @apply border border-slate-400 h-14 rounded-4xl mb-4;
+  .nextPage {
+    @apply outline-none decoration-0 border-none bg-transparent h-full ml-4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    padding-top: 14px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.sub {
+  @apply border-none text-center;
+  background: #50DE97;
+  &:hover {
+    cursor: pointer;
+  }
+  input {
+    @apply pb-20 pt-3.5;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+  }
+}
