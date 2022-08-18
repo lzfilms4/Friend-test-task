@@ -12,6 +12,9 @@ React, React-Router, Redux-toolkit,Tailwind/Scss
 
 Запуск в режиме разработчика:
 
+Перед первым запуском запистить
+### `npm install`
+
 ### `npm start`
 
 Runs the app in the development mode.\
